@@ -1,1 +1,0 @@
-print("Hamburgers are good!")
