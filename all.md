@@ -725,6 +725,6 @@ This line creates the function, with one function input; `number`. This is used 
 
 On line 2, it checks if the functions input `number` is 1. If the number is 1, it will continue with the if statement. If the number is not 1, then it will pass the if statement.
 So, if the number is 1, it will print "Enter your first number". This is usefull because the user would not know what to do if the python program just stopped.
-Then, it gets the user's input by 
+Then, it gets the user's input by defining the `word1` variable. 
 
 
