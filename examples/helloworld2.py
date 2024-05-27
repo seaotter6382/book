@@ -1,0 +1,1 @@
+print("Hamburgers are good!")
