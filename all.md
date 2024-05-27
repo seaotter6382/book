@@ -671,28 +671,28 @@ Here is a example of just that:
 4.         word1 = input()
 5.         print("Enter your second number")
 6.         word2 = input()
-7.         word3 = word1 + word2
+7.         word3 = int(word1) + int(word2)
 8.         print(word1 + " + " + word2 + " = " + word3)
 9.     if number == 2:
 10.        print("Enter your first number")
 11.        word1 = input()
 12.        print("Enter your second number")
 13.        word2 = input()
-14.        word3 = word1 - word2
+14.        word3 = int(word1) - int(word2)
 15.        print(word1 + " - " + word2 + " = " + word3)
 16.    if number == 3:
 17.        print("Enter your first number")
 18.        word1 = input()
 19.        print("Enter your second number")
 20.        word2 = input()
-21.        word3 = word1 / word2
+21.        word3 = int(word1) / int(word2)
 22.        print(word1 + " / " + word2 + " = " + word3)
 23.    if number == 4:
 24.        print("Enter your first number")
 25.        word1 = input()
 26.        print("Enter your second number")
 27.        word2 = input()
-28.        word3 = word1 * word2
+28.        word3 = int(word1) * int(word2)
 29.        print(word1 + " * " + word2 + " = " + word3)
 30.
 31. calculator(1)
@@ -719,7 +719,7 @@ This line creates the function, with one function input; `number`. This is used 
 4.     word1 = input()
 5.     print("Enter your second number")
 6.     word2 = input()
-7.     word3 = word1 + word2
+7.     word3 = int(word1) + int(word2)
 8.     print(word1 + " + " + word2 + " = " + word3)
 ```
 
